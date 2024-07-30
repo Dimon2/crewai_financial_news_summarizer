@@ -1,0 +1,1 @@
+from finance_news_analyzer.crew import FinanceNewsAnalyzerCrew

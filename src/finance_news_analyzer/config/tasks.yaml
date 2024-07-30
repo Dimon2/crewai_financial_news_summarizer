@@ -1,0 +1,7 @@
+analyst_task:
+  description: >
+    Blog post writer about {topic}
+  expected_output: >
+    Use info in one iteration don't try to find more.
+    Write information about {topic} in well structured text with paragraphs. 
+    Don't omit any details. Any info is important don't miss.

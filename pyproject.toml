@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "finance_news_analyzer"
+version = "0.1.0"
+description = "finance_news_analyzer using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.41.1" }
+bs4 = "^0.0.2"
+undetected-chromedriver = "^3.5.5"
+langchain-huggingface = "^0.0.3"
+
+[tool.poetry.scripts]
+finance_news_analyzer = "finance_news_analyzer.main:run"
+train = "finance_news_analyzer.main:train"
+replay = "finance_news_analyzer.main:replay"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
